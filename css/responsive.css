@@ -30,6 +30,7 @@
     .home-section .home-img .img-box {
         margin-bottom: 40px;
         max-width: 350px;
+        max-height: 350px;
     }
     .contact-section .submit-btn {
         text-align: center;
@@ -79,6 +80,7 @@
 @media (max-width: 574px) {
     .home-section .home-img .img-box {
         max-width: 260px;
+        max-height: 260px;
     }
     .home-section .home-text h2 {
         font-size: 40px;

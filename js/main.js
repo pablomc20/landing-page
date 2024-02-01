@@ -80,6 +80,29 @@ function bodyAcrollingToggle() {
     d.body.classList.toggle("hidden-scrolling");
 }
 
+// about me section
+(() => {
+    const textoCompleto = document.getElementById("texto-completo"),
+    textoRecortado = document.getElementById("texto-recortado"),
+    show_more = document.getElementById("show-more"),
+    show_less = document.getElementById("show-less");
+
+    const onClickShowMore = () => {
+        textoRecortado.style.display = "none"
+        textoCompleto.style.display = "block"
+    }
+
+    const onClickShowLess = () => {
+        textoCompleto.style.display = "none"
+        textoRecortado.style.display = "block"
+    }
+
+    show_more.addEventListener('click', onClickShowMore);
+    
+    show_less.addEventListener('click', onClickShowLess);
+
+})();
+
 // portafolio filter and popup
 (() => {
 

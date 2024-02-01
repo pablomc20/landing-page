@@ -3,14 +3,15 @@
 <head>
   <meta charset="utf-8">
   <title>Personal Portfolio Website</title>
+  <link rel="icon" type="image/x-icon" href="/css/img/icon-cat.png">
   <meta name="viewport" content="width=device-width,initial-scale=1.0">
   <!-- font awesome -->
   <!-- <link rel="stylesheet" type="text/css" href="css/font-awesome.css"> -->
-  <script src="https://kit.fontawesome.com/da019b54c3.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   <!-- main css -->
-  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <link rel="stylesheet" type="text/css" href="css/style.css?v=1.0.2">
   <!-- responsive css -->
-  <link rel="stylesheet" type="text/css" href="css/responsive.css">
+  <link rel="stylesheet" type="text/css" href="css/responsive.css?v=1.0.1">
   <!-- default color skin -->
   <link rel="stylesheet" type="text/css" href="css/skins/color-4.css" class="alternate-style">
   <!-- style switcher -->
@@ -127,7 +128,7 @@
         </div>
         <div class="home-img">
           <div class="img-box inner-shadow">
-            <img src="https://i.ibb.co/cDpzQwL/profile-pic.png" class="outer-shadow" alt="profile-pic" border="0">
+            <img src="css/img/profile-user.jpg" class="outer-shadow" alt="profile-user" border="0">
           </div>
         </div>
       </div>
@@ -148,7 +149,7 @@
       <div class="row">
         <div class="about-img">
           <div class="img-box inner-shadow">
-            <img src="img/profile-pic.png" class="outer-shadow" alt="profile-pic">
+            <img src="css/img/profile-pic.jpg" class="outer-shadow" alt="profile-pic">
           </div>
           <!-- social links start -->
           <div class="social-links">
@@ -160,9 +161,34 @@
           <!-- social links end -->
         </div>
         <div class="about-info">
-          <p><span>Hi! My name is Pablo Cruz. I am a Web Developer Full Stack (Backe-End). </span>I am currently looking for a job in which I can apply my skills learned in software development, in addition to continuing to learn new technologies.</p>
-          <p>I stand out for my ability to solve mathematical and logic problems, I have work experience, I like teamwork and difficult challenges, I am an educated, respectful and very responsible person.</p>
-          <a href="cv.pdf" class="btn-l outer-shadow hover-in-shadow">Downloead CV</a>
+          <div id="texto-completo" class="texto-completo">
+            
+            <p><span>Hi! My name is Pablo Cruz. I am a Web Developer Full Stack (Backe-End). </span></p>
+            <p>My experience covers a wide range of technologies. On the front-end, I have worked with CSS, HTML, JavaScript, and jQuery to create engaging and dynamic interfaces. Additionally, I have used frameworks like Bootstrap 5 to streamline development and ensure a smooth user experience.</p> 
+            <p>On the backend, I have experience using languages such as PHP with the Laravel framework, Java with the Spring framework, and I have also dabbled in Python with the Django framework.</p>
+
+            <p>In terms of databases, I have worked with a variety of systems including MySQL, MariaDB, SQLite, and MongoDB. These projects have allowed me to develop skills in efficient database management and ensuring data integrity in high-performance environments.</p>
+            
+            <p>Beyond my technical skills, I consider myself passionate about web development and API services. I enjoy tackling challenges and finding creative solutions to problems that arise in web system development.</p>
+            
+            <p>I also value the importance of collaboration and knowledge sharing. I have had the opportunity to contribute to open-source projects, which has provided me with the experience of working in teams and learning from other talented developers.</p>
+            
+            <p>In every project I undertake, my primary focus is to provide added value to my clients or users. I ensure I understand their needs and business objectives, and develop customized solutions that help them achieve success.</p> 
+            <p>Whether it's optimizing the speed and performance of a system, ensuring the security of sensitive data, or enhancing the user experience, I always strive to exceed expectations and deliver exceptional results.</p>
+            
+            <p>Throughout my career, I have achieved several notable milestones and overcome technical challenges. However, the most rewarding aspect for me is the satisfaction of my clients and end users.</p>
+
+            <a id="show-less" href="#texto-completo">Ver menos...</a>
+          </div>
+          <div id="texto-recortado" class="texto-recortado">
+            <p><span>Hi! My name is Pablo Cruz. I am a Web Developer Full Stack (Backe-End). </span></p>
+            <p>My experience covers a wide range of technologies. On the front-end, I have worked with CSS, HTML, JavaScript, and jQuery to create engaging and dynamic interfaces. Additionally, I have used frameworks like Bootstrap 5 to streamline development and ensure a smooth user experience.</p> 
+            <p>On the backend, I have experience using languages such as PHP with the Laravel framework, Java with the Spring framework, and I have also dabbled in Python with the Django framework.</p>
+
+            <a id="show-more" href="#texto-completo">Ver mas...</a>
+          </div>
+
+          <a href="cv.pdf" class="btn-l outer-shadow hover-in-shadow">Download CV</a>
           <a href="#contact" class="link-item btn-l outer-shadow hover-in-shadow">Hire me</a>
         </div>
       </div>
@@ -206,22 +232,24 @@
             <div class="skill-item">
               <p>JAVA</p>
               <div class="progress inner-shadow">
-                <div class="progress-bar" style="width: calc(75% - 14px)">
-                  <span>65%</span>
+                <div class="progress-bar" style="width: calc(60% - 14px)">
+                  <span>60%</span>
                 </div>
               </div>
             </div>
             <!-- skill item end -->
+            
             <!-- skill item start -->
             <div class="skill-item">
-              <p>HTML</p>
+              <p>Python</p>
               <div class="progress inner-shadow">
-                <div class="progress-bar" style="width: calc(90% - 14px)">
-                  <span>90%</span>
+                <div class="progress-bar" style="width: calc(70% - 14px)">
+                  <span>70%</span>
                 </div>
               </div>
             </div>
             <!-- skill item end -->
+
             <!-- skill item start -->
             <div class="skill-item">
               <p>MySQL</p>
@@ -232,6 +260,7 @@
               </div>
             </div>
             <!-- skill item end -->
+
             <!-- skill item start -->
             <div class="skill-item">
               <p>Inglés</p>
@@ -257,7 +286,20 @@
                 <div class="timeline-item">
                   <div class="timeline-item-inner outer-shadow">
                     <i class="fas fa-briefcase icon"></i>
-                    <span>Jan, 2021 - Present</span>
+                    <span>Feb, 2022 - Present</span>
+                    <h3>Developer FullStack (Backend)</h3>
+                    <h4>Banco Azteca, Tlalpan, CDMX</h4>
+                    <p>Management for the design, implementation and maintenance of web applications.
+                      Using tools like Bootstrap4, JQuery, AJAX, PHP, JavaScript, MySQL</p>
+                  </div>
+                </div>
+                <!-- timeline item end -->
+
+                <!-- timeline item start -->
+                <div class="timeline-item">
+                  <div class="timeline-item-inner outer-shadow">
+                    <i class="fas fa-briefcase icon"></i>
+                    <span>Jan, 2021 - Feb, 2022</span>
                     <h3>Junior Developer</h3>
                     <h4>Xiimbal S de RL de CV, Tulancingo, Hidalgo</h4>
                     <p>Management for the design, implementation and maintenance of web applications.
@@ -373,7 +415,7 @@
               <i class="fas fa-mobile-alt"></i>
             </div>
             <h3>Responsive Design</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe provident dolorem quaerat labore eos consectetur voluptatibus nemo iusto libero. Optio nisi consequatur fugit, pariatur porro sapiente architecto eligendi vel deleniti!</p>
+            <p> I create web designs that automatically adapt to different devices and screen sizes. I ensure an optimal user experience and intuitive navigation, allowing your website to look and perform excellently on mobile phones, tablets, and desktop computers.</p>
           </div>
         </div>
         <!-- service item end -->
@@ -384,7 +426,7 @@
               <i class="fas fa-laptop-code"></i>
             </div>
             <h3>Web Design</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe provident dolorem quaerat labore eos consectetur voluptatibus nemo iusto libero. Optio nisi consequatur fugit, pariatur porro sapiente architecto eligendi vel deleniti!</p>
+            <p>I create custom web systems that are tailored to your specific needs. From business management systems (ERP) to e-commerce platforms and more, I develop powerful and scalable web solutions that streamline your processes and improve the efficiency of your business.</p>
           </div>
         </div>
         <!-- service item end -->
@@ -392,10 +434,10 @@
         <div class="service-item">
           <div class="service-item-inner outer-shadow">
             <div class="icon inner-shadow">
-              <i class="fas fa-palette"></i>
+              <i class="fa-solid fa-database"></i>
             </div>
-            <h3>Graphic Design</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe provident dolorem quaerat labore eos consectetur voluptatibus nemo iusto libero. Optio nisi consequatur fugit, pariatur porro sapiente architecto eligendi vel deleniti!</p>
+            <h3>Database</h3>
+            <p>I design and develop efficient and secure databases for your project. From modeling to implementation, I ensure robust and optimized structures that guarantee data integrity and performance.</p>
           </div>
         </div>
         <!-- service item end -->
@@ -406,7 +448,7 @@
               <i class="fas fa-code"></i>
             </div>
             <h3>Clean code</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe provident dolorem quaerat labore eos consectetur voluptatibus nemo iusto libero. Optio nisi consequatur fugit, pariatur porro sapiente architecto eligendi vel deleniti!</p>
+            <p>I always apply clean coding standards and adhere to best practices to ensure well-structured, readable, and easily maintainable code. I use clear comments, proper naming conventions, and optimization techniques to ensure the quality and scalability of my projects.</p>
           </div>
         </div>
         <!-- service item end -->
@@ -414,10 +456,10 @@
         <div class="service-item">
           <div class="service-item-inner outer-shadow">
             <div class="icon inner-shadow">
-              <i class="fas fa-search"></i>
+              <i class="fa-solid fa-gears"></i>
             </div>
-            <h3>SEO Marketing</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe provident dolorem quaerat labore eos consectetur voluptatibus nemo iusto libero. Optio nisi consequatur fugit, pariatur porro sapiente architecto eligendi vel deleniti!</p>
+            <h3>API services</h3>
+            <p>I provide custom API development services, creating robust and secure interfaces to facilitate communication between different systems. I design and develop RESTful API services using technologies like Spring Boot, FastAPI, and Django to ensure efficient performance and seamless integration with your applications and services.</p>
           </div>
         </div>
         <!-- service item end -->
@@ -425,10 +467,10 @@
         <div class="service-item">
           <div class="service-item-inner outer-shadow">
             <div class="icon inner-shadow">
-              <i class="fas fa-bullhorn"></i>
+              <i class="fa-brands fa-git-alt"></i>
             </div>
-            <h3>Great support</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe provident dolorem quaerat labore eos consectetur voluptatibus nemo iusto libero. Optio nisi consequatur fugit, pariatur porro sapiente architecto eligendi vel deleniti!</p>
+            <h3>Code version control</h3>
+            <p>I provide code version control services using tools like Git, allowing you to have precise tracking of changes in your source code. I implement efficient branching and merging practices to ensure smooth collaborative development and a comprehensive history of revisions.</p>
           </div>
         </div>
         <!-- service item end -->

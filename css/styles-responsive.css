@@ -1,0 +1,6 @@
+@media screen and (min-width: 450px) {
+    .home-section .home-img .img-box{
+        width: 350px;
+        height: 350px;
+    }
+}
