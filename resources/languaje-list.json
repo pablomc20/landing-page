@@ -1,0 +1,72 @@
+{
+    "en": {
+        "ttl_copyright": "&copy; 2021 developed by pablo",
+
+        "ttl_section_text1": "Hi! My name is Pablo Cruz.",
+        "ttl_section_text2": "I am a Developer Full Stack.",
+        "ttl_section_text3": "My experience covers a wide range of technologies. On the front-end, I have worked with <span class='font-b'>CSS</span>, <span class='font-b'>HTML</span>, <span class='font-b'>JavaScript</span>, and <span class='font-b'>jQuery</span> to create engaging and dynamic interfaces. Additionally, I have used frameworks like <span class='font-b'>Bootstrap 4 and 5</span><span class='font-b'>,</span> <span class='font-b'>Spring framework</span>, <span class='font-b'>Django</span>, <span class='font-b'>Laravel</span> to streamline development and ensure a smooth user experience.",
+        "ttl_section_text4": "On the back-end, I have experience using languages such as <span class='font-b'>PHP</span>, <span class='font-b'>Java<b>, <span class='font-b'>Python</span> and a little <span class='font-b'>TypeScript</span>. I have used frameworks like <span class='font-b'>SpringMVC</span>, <span class='font-b'>FastAPI</span>.",
+        "ttl_section_text5": "In terms of databases, I have worked with a variety of systems including <span class='font-b'>MySQL</span>, <span class='font-b'>PL/SQL</span>, <span class='font-b'>MariaDB</span>, <span class='font-b'>SQLite</span>, and <span class='font-b'>MongoDB</span>.",
+        "ttl_section_text6": "I have had the opportunity to contribute to many projects, which has provided me with the experience of working in teams and learning from other talented developers.",
+        "ttl_section_text7": "Beyond my technical skills, I enjoy tackling challenges and finding creative solutions to problems that arise in system development.",
+        
+        "ttl_welcome": "Hello!",
+        "ttl_about_name": "I'm Pablo Cruz",
+        "ttl_place": "Developer Full Stack", 
+        "ttl_about_me": "About me",
+        "ttl_main_info": "main info",
+        "ttl_get_touch": "get in touch",
+        
+        "ttl_skill_languaje": "English",
+        "ttl_skills": "skills",
+        "ttl_experience": "experience",
+        "ttl_education": "education",
+
+        "ttl_btn_about_me": "More About Me",
+        "ttl_btn_show_less": "Show less...",
+        "ttl_btn_show_more": "Show more...",
+        "ttl_btn_download_cv": "Download CV",
+        "ttl_btn_here_me": "Hire me",
+        
+        "ttl_home": "home",
+        "ttl_about": "about",
+        "ttl_services": "services",
+        "ttl_portf": "portafolio",
+        "ttl_contact": "contact"
+    },
+    "es": {
+        "ttl_copyright": "&copy; 2021 desarrollado por pablo",
+        
+        "ttl_section_text1": "¡Hola! Mi nombre es Pablo Cruz.",
+        "ttl_section_text2": "Soy Desarrollador Full Stack.",
+        "ttl_section_text3": "Mi eperiencia cubre una amplia gama de tecnologías. En el front-end, he trabajado con <span class='font-b'>CSS</span>, <span class='font-b'>HTML</span>, <span class='font-b'>JavaScript</span> y <span class='font-b'>jQuery</span> para crear interfaces atractivas y dinámicas. Además, he utilizado frameworks como <span class='font-b'>Bootstrap 4 y 5</span><span class='font-b'>,</span> <span class='font-b'>Spring framework</span>, <span class='font-b'>Django</span>, <span class='font-b'>Laravel</span> para agilizar el desarrollo y garantizar una experiencia de usuario fluida.",
+        "ttl_section_text4": "En el back-end, tengo experiencia usando lenguajes como <span class='font-b'>PHP</span>, <span class='font-b'>Java<span>, <span class='font-b'>Python</span> y un poco de <span class='font-b'>TypeScript.</span> He usado frameworks como <span class='font-b'>SpringMVC</span>, <span class='font-b'>FastAPI</span>.",
+        "ttl_section_text5": "En términos de bases de datos, he trabajado con una variedad de sistemas, incluidos <span class='font-b'>MySQL</span>, <span class='font-b'>PL/SQL</span>, <span class='font-b'>MariaDB</span>, <span class='font-b'>/SQLite<span> y <span class='font-b'>MongoDB</span>.",
+        "ttl_section_text6": "He tenido la oportunidad de contribuir en muchos proyectos, lo que me ha brindado la experiencia de trabajar en equipo y aprender de otros desarrolladores talentosos.",
+        "ttl_section_text7": "Más allá de mis habilidades técnicas, disfruto enfrentando desafíos y encontrando soluciones creativas a los problemas que surgen en el desarrollo de sistemas.",
+        
+        "ttl_welcome": "¡Hola!",
+        "ttl_about_name": "Soy Pablo Cruz",
+        "ttl_place": "Desarrollador Full Stack",
+        "ttl_about_me": "Sobre mí",
+        "ttl_main_info": "información principal",
+        "ttl_get_touch": "ponerse en contacto",
+        
+        "ttl_skill_languaje": "inglés",
+        "ttl_skills": "habilidades",
+        "ttl_experience": "experiencia",
+        "ttl_education": "educación",
+        
+        "ttl_btn_about_me": "Mas Acerca De Mí",
+        "ttl_btn_show_less": "Ver menos...",
+        "ttl_btn_show_more": "Ver mas...",
+        "ttl_btn_download_cv": "Descargar CV",
+        "ttl_btn_here_me": "Contrátame",
+
+        "ttl_home": "Inicio",
+        "ttl_about": "Sobre mí",
+        "ttl_services": "Servicios",
+        "ttl_portf": "Portafolio",
+        "ttl_contact": "Contacto"
+    }
+}

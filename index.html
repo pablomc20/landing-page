@@ -16,8 +16,11 @@
   <link rel="stylesheet" type="text/css" href="css/skins/color-4.css" class="alternate-style">
   <!-- style switcher -->
   <link rel="stylesheet" type="text/css" href="css/style-switcher.css">
+
+  <script src="js/languaje-config.js"></script>
+
 </head>
-<body class="dark">
+<body class="dark" data-languaje="en">
 
   <!-- preloader start -->
   <div class="preloader">
@@ -49,16 +52,16 @@
     <div class="close-nav-menu outer-shadow hover-in-shadow">&times;</div>
     <div class="nav-menu-inner">
       <ul>
-        <li><a href="#home" class="link-item inner-shadow active">home</a></li>
-        <li><a href="#about" class="link-item outer-shadow hover-in-shadow">about</a></li>
-        <li><a href="#services" class="link-item outer-shadow hover-in-shadow">services</a></li>
-        <li><a href="#portafolio" class="link-item outer-shadow hover-in-shadow">portafolio</a></li>
-        <li><a href="#contact" class="link-item outer-shadow hover-in-shadow">contact</a></li>
+        <li><a href="#home" class="link-item inner-shadow active" ttl_home="true"></a></li>
+        <li><a href="#about" class="link-item outer-shadow hover-in-shadow" ttl_about="true"></a></li>
+        <li><a href="#services" class="link-item outer-shadow hover-in-shadow" ttl_services="true"></a></li>
+        <li><a href="#portafolio" class="link-item outer-shadow hover-in-shadow" ttl_portf="true"></a></li>
+        <li><a href="#contact" class="link-item outer-shadow hover-in-shadow" ttl_contact="true"></a></li>
       </ul>
     </div>
 
     <!-- copyright text -->
-    <p class="copyright-text">&copy; 2021 developed by pablo</p>
+    <p class="copyright-text" ttl_copyright="true"></p>
   </nav>
   <div class="fade-out-effect"></div>
   <!-- menu end -->
@@ -120,10 +123,10 @@
     <div class="container">
       <div class="row full-screen align-items-center">
         <div class="home-text">
-          <p>Hello</p>
-          <h2>I'm Pablo Cruz</h2>
-          <h1>Developer Full Stack</h1>
-          <a href="#about" class="link-item outer-shadow hover-in-shadow btn-l">More About Me</a>
+          <p ttl_welcome="true"></p>
+          <h2 ttl_about_name="true"></h2>
+          <h1 ttl_place="true"></h1>
+          <a ttl_btn_about_me="true" href="#about" class="link-item outer-shadow hover-in-shadow btn-l"></a>
         </div>
         <div class="home-img">
           <div class="img-box inner-shadow">
@@ -140,7 +143,8 @@
     <div class="container">
       <div class="row">
         <div class="section-title">
-          <h2 data-heading="main info">About me</h2>
+          <h3 ttl_main_info="true"></h3>
+          <h2 ttl_about_me="true"></h2>
         </div>
       </div>
 
@@ -162,32 +166,31 @@
         <div class="about-info">
           <div id="texto-completo" class="texto-completo">
 
-            <p><span>Hi! My name is Pablo Cruz. I am a Developer Full Stack.</span></p>
-            <p><span>I'll tell you a little about myself</span></p>
+            <p><span ttl_section_text1="true"></span></p>
+            <p><span ttl_section_text2="true"></span></p>
             
-            <p>My experience covers a wide range of technologies. On the front-end, I have worked with CSS, HTML, JavaScript, and jQuery to create engaging and dynamic interfaces. Additionally, I have used frameworks like Bootstrap 4 and 5, Spring framework, Django, Laravel to streamline development and ensure a smooth user experience.</p> 
-            <p>On the back-end, I have experience using languages such as PHP, Java, Python and a little TypeScript. I have used frameworks like SpringMVC, FastAPI.</p>
-
-            <p>In terms of databases, I have worked with a variety of systems including MySQL, PL/SQL, MariaDB, SQLite, and MongoDB.</p>
+            <br> 
+            <p ttl_section_text3="true"></p>
+            <p ttl_section_text4="true"></p>
+            <p ttl_section_text5="true"></p>
+            <p ttl_section_text6="true"></p>
+            <p ttl_section_text7="true"></p>
             
-            <p>Beyond my technical skills, I enjoy tackling challenges and finding creative solutions to problems that arise in web system development.</p>
-            
-            <p>I have had the opportunity to contribute to many projects, which has provided me with the experience of working in teams and learning from other talented developers.</p>
-            
-            <a id="show-less" href="#texto-completo">Ver menos...</a>
+            <a id="show-less" href="#texto-completo" ttl_show_less="true"></a>
           </div>
           <div id="texto-recortado" class="texto-recortado">
-            <p><span>Hi! My name is Pablo Cruz. I am a Developer Full Stack.</span></p>
-            <p><span>I'll tell you a little about myself</span></p>
+            <p><span ttl_section_text1="true"></span></p>
+            <p><span ttl_section_text2="true"></span></p>
 
-            <p>My experience covers a wide range of technologies. On the front-end, I have worked with CSS, HTML, JavaScript, and jQuery to create engaging and dynamic interfaces. Additionally, I have used frameworks like Bootstrap 4 and 5, Spring framework, Django, Laravel to streamline development and ensure a smooth user experience.</p> 
-            <p>On the back-end, I have experience using languages such as PHP, Java, Python and a little TypeScript. I have used frameworks like SpringMVC, FastAPI.</p>
+            <br> 
+            <p ttl_section_text3="true"></p>
+            <p ttl_section_text4="true"></p>
 
-            <a id="show-more" href="#texto-completo">Ver mas...</a>
+            <a id="show-more" href="#texto-completo" ttl_show_more="true"></a>
           </div>
 
-          <a href="cv.pdf" class="btn-l outer-shadow hover-in-shadow">Download CV</a>
-          <a href="#contact" class="link-item btn-l outer-shadow hover-in-shadow">Hire me</a>
+          <a href="cv.pdf" class="btn-l outer-shadow hover-in-shadow" ttl_btn_download_cv="true"></a>
+          <a href="#contact" class="link-item btn-l outer-shadow hover-in-shadow" ttl_btn_here_me="true"></a>
         </div>
       </div>
       <!-- about me end -->
@@ -195,9 +198,9 @@
       <!-- about tabs start -->
       <div class="row">
         <div class="about-tabs">
-          <span class="tab-item outer-shadow active" data-target=".skills">skills</span>
-          <span class="tab-item" data-target=".experience">experience</span>
-          <span class="tab-item" data-target=".education">education</span>
+          <span class="tab-item outer-shadow active" data-target=".skills" ttl_skills="true"></span>
+          <span class="tab-item" data-target=".experience" ttl_experience="true"></span>
+          <span class="tab-item" data-target=".education" ttl_education="true"></span>
         </div>
       </div>
       <!-- about tabs end -->
@@ -210,8 +213,8 @@
             <div class="skill-item">
               <p>PHP</p>
               <div class="progress inner-shadow">
-                <div class="progress-bar" style="width: calc(70% - 14px)">
-                  <span>70%</span>
+                <div class="progress-bar" style="width: calc(75% - 14px)">
+                  <span>75%</span>
                 </div>
               </div>
             </div>
@@ -230,8 +233,8 @@
             <div class="skill-item">
               <p>JAVA</p>
               <div class="progress inner-shadow">
-                <div class="progress-bar" style="width: calc(60% - 14px)">
-                  <span>60%</span>
+                <div class="progress-bar" style="width: calc(83% - 14px)">
+                  <span>83%</span>
                 </div>
               </div>
             </div>
@@ -252,8 +255,8 @@
             <div class="skill-item">
               <p>MySQL</p>
               <div class="progress inner-shadow">
-                <div class="progress-bar" style="width: calc(80% - 14px)">
-                  <span>80%</span>
+                <div class="progress-bar" style="width: calc(78% - 14px)">
+                  <span>78%</span>
                 </div>
               </div>
             </div>
@@ -261,7 +264,7 @@
 
             <!-- skill item start -->
             <div class="skill-item">
-              <p>Inglés</p>
+              <p ttl_skill_languaje="true"></p>
               <div class="progress inner-shadow">
                 <div class="progress-bar" style="width: calc(45% - 14px)">
                   <span>45%</span>
@@ -609,7 +612,7 @@
     <div class="container">
       <div class="row">
         <div class="section-title">
-          <h2 data-heading="contact">Get in touch</h2>
+          <h2 data-heading="contact" ttl_get_touch="true"></h2>
         </div>
       </div>
       <div class="row">
@@ -721,6 +724,9 @@
     </div>
     <div class="day-night s-icon outer-shadow hover-in-shadow">
       <i class="fas"></i>
+    </div>
+    <div class="icon-languaje s-icon outer-shadow hover-in-shadow">
+      <i class="fa-solid fa-language"></i>
     </div>
 
     <h4>Theme Colors</h4>
