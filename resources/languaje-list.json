@@ -4,23 +4,49 @@
 
         "ttl_section_text1": "Hi! My name is Pablo Cruz.",
         "ttl_section_text2": "I am a Developer Full Stack.",
-        "ttl_section_text3": "My experience covers a wide range of technologies. On the front-end, I have worked with <span class='font-b'>CSS</span>, <span class='font-b'>HTML</span>, <span class='font-b'>JavaScript</span>, and <span class='font-b'>jQuery</span> to create engaging and dynamic interfaces. Additionally, I have used frameworks like <span class='font-b'>Bootstrap 4 and 5</span><span class='font-b'>,</span> <span class='font-b'>Spring framework</span>, <span class='font-b'>Django</span>, <span class='font-b'>Laravel</span> to streamline development and ensure a smooth user experience.",
+        "ttl_section_text3": "My experience covers a wide range of technologies. On the front-end, I have worked with <span class='font-b'>CSS</span>, <span class='font-b'>HTML</span>, <span class='font-b'>JavaScript</span>, and <span class='font-b'>jQuery</span> to create engaging and dynamic interfaces. Additionally, I have used frameworks like <span class='font-b'>Bootstrap 4 and 5</span><span class='font-b'>,</span> <span class='font-b'>Spring framework. Spring Batch</span>, <span class='font-b'>Django</span>, <span class='font-b'>Laravel</span> to streamline development and ensure a smooth user experience.",
         "ttl_section_text4": "On the back-end, I have experience using languages such as <span class='font-b'>PHP</span>, <span class='font-b'>Java<b>, <span class='font-b'>Python</span> and a little <span class='font-b'>TypeScript</span>. I have used frameworks like <span class='font-b'>SpringMVC</span>, <span class='font-b'>FastAPI</span>.",
         "ttl_section_text5": "In terms of databases, I have worked with a variety of systems including <span class='font-b'>MySQL</span>, <span class='font-b'>PL/SQL</span>, <span class='font-b'>MariaDB</span>, <span class='font-b'>SQLite</span>, and <span class='font-b'>MongoDB</span>.",
         "ttl_section_text6": "I have had the opportunity to contribute to many projects, which has provided me with the experience of working in teams and learning from other talented developers.",
         "ttl_section_text7": "Beyond my technical skills, I enjoy tackling challenges and finding creative solutions to problems that arise in system development.",
         
+        "ttl_section_work1_tit": "Developer FullStack",
+        "ttl_section_work1_sub": "Banco Azteca, Tlalpan, CDMX",
+        "ttl_section_work1_des": "Development of microservices and web services REST and SOAP.<br />Creation and maintenance of web applications.</ul><br />Management and version control of source code.<br />Implementation of Continuous Integration and Continuous Deployment (CI/CD) pipelines.<br />Database administration.<br />Development and execution of batch processes.",
+        "ttl_section_work2_tit": "Desarrollador genérico",
+        "ttl_section_work2_sub": "Xiimbal, Tulancingo, Hidalgo",
+        "ttl_section_work2_des": "Development and maintenance of various modules of a Web System, ERP.<br />Collaboration on the Gnosis project developed with Laravel.<br />Database management with MySQL (Triggers, Procedures, CRUD).",
+        "ttl_section_work3_tit": "Web Developer",
+        "ttl_section_work3_des": "Xiimbal, Tulancingo, Hidalgo",
+        "ttl_section_work3_sub": "Development and management of web applications, with connectivity to an SQL database.<br />Improvement in the architecture of a web application: replacement of table-based structure, mobile device adaptive views.",
+
         "ttl_welcome": "Hello!",
         "ttl_about_name": "I'm Pablo Cruz",
         "ttl_place": "Developer Full Stack", 
         "ttl_about_me": "About me",
         "ttl_main_info": "main info",
         "ttl_get_touch": "get in touch",
+        "ttl_what_do": "what i do",
+        "ttl_lates_work": "latest Works",
+
         
         "ttl_skill_languaje": "English",
         "ttl_skills": "skills",
         "ttl_experience": "experience",
         "ttl_education": "education",
+
+        "ttl_section_responsive_title": "responsive design",
+        "ttl_section_responsive": "I create web designs that automatically adapt to different devices and screen sizes.<br><br> I ensure an optimal user experience and intuitive navigation, allowing your website to look and perform excellently on mobile phones, tablets, and desktop computers.",
+        "ttl_section_design_title": "web design",
+        "ttl_section_design": "I create custom web systems that are tailored to your specific needs.<br><br> From business management systems (ERP) to e-commerce platforms and more, I develop powerful and scalable web solutions that streamline your processes and improve the efficiency of your business.",
+        "ttl_section_database_title": "DataBase",
+        "ttl_section_database": "I design and develop efficient and secure databases for your project.<br><br> From modeling to implementation, I ensure robust and optimized structures that guarantee data integrity and performance.",
+        "ttl_section_code_title": "Clean code",
+        "ttl_section_code": "I always apply clean coding standards and adhere to best practices to ensure well-structured, readable, and easily maintainable code.<br><br> I use clear comments, proper naming conventions, and optimization techniques to ensure the quality and scalability of my projects.",
+        "ttl_section_apis_title": "API Services",
+        "ttl_section_apis": "I provide custom API development services, creating robust and secure interfaces to facilitate communication between different systems.<br><br> I design and develop RESTful API services using technologies like Spring Boot, FastAPI, and Django to ensure efficient performance and seamless integration with your applications and services.",
+        "ttl_section_version_title": "Code Version Control",
+        "ttl_section_version": "I provide code version control services using tools like Git, allowing you to have precise tracking of changes in your source code.<br><br> I implement efficient branching and merging practices to ensure smooth collaborative development and a comprehensive history of revisions.",
 
         "ttl_btn_about_me": "More About Me",
         "ttl_btn_show_less": "Show less...",
@@ -32,41 +58,87 @@
         "ttl_about": "about",
         "ttl_services": "services",
         "ttl_portf": "portafolio",
-        "ttl_contact": "contact"
+        "ttl_contact": "contact",
+
+        "ttl_contact_phone": "Phone",
+        "ttl_contact_email": "Email",
+        "ttl_contact_location": "Location",
+
+        "ttl_form_name": "Name",
+        "ttl_form_email": "Email",
+        "ttl_form_subject": "Subject",
+        "ttl_form_message": "Message",
+        "ttl_form_submit": "Send Message"
     },
     "es": {
         "ttl_copyright": "&copy; 2021 desarrollado por pablo",
         
         "ttl_section_text1": "¡Hola! Mi nombre es Pablo Cruz.",
         "ttl_section_text2": "Soy Desarrollador Full Stack.",
-        "ttl_section_text3": "Mi eperiencia cubre una amplia gama de tecnologías. En el front-end, he trabajado con <span class='font-b'>CSS</span>, <span class='font-b'>HTML</span>, <span class='font-b'>JavaScript</span> y <span class='font-b'>jQuery</span> para crear interfaces atractivas y dinámicas. Además, he utilizado frameworks como <span class='font-b'>Bootstrap 4 y 5</span><span class='font-b'>,</span> <span class='font-b'>Spring framework</span>, <span class='font-b'>Django</span>, <span class='font-b'>Laravel</span> para agilizar el desarrollo y garantizar una experiencia de usuario fluida.",
+        "ttl_section_text3": "Mi eperiencia cubre una amplia gama de tecnologías. En el front-end, he trabajado con <span class='font-b'>CSS</span>, <span class='font-b'>HTML</span>, <span class='font-b'>JavaScript</span> y <span class='font-b'>jQuery</span> para crear interfaces atractivas y dinámicas. Además, he utilizado frameworks como <span class='font-b'>Bootstrap 4 y 5</span><span class='font-b'>,</span> <span class='font-b'>Spring framework. Spring Batch</span>, <span class='font-b'>Django</span>, <span class='font-b'>Laravel</span> para agilizar el desarrollo y garantizar una experiencia de usuario fluida.",
         "ttl_section_text4": "En el back-end, tengo experiencia usando lenguajes como <span class='font-b'>PHP</span>, <span class='font-b'>Java<span>, <span class='font-b'>Python</span> y un poco de <span class='font-b'>TypeScript.</span> He usado frameworks como <span class='font-b'>SpringMVC</span>, <span class='font-b'>FastAPI</span>.",
         "ttl_section_text5": "En términos de bases de datos, he trabajado con una variedad de sistemas, incluidos <span class='font-b'>MySQL</span>, <span class='font-b'>PL/SQL</span>, <span class='font-b'>MariaDB</span>, <span class='font-b'>/SQLite<span> y <span class='font-b'>MongoDB</span>.",
         "ttl_section_text6": "He tenido la oportunidad de contribuir en muchos proyectos, lo que me ha brindado la experiencia de trabajar en equipo y aprender de otros desarrolladores talentosos.",
         "ttl_section_text7": "Más allá de mis habilidades técnicas, disfruto enfrentando desafíos y encontrando soluciones creativas a los problemas que surgen en el desarrollo de sistemas.",
         
+        "ttl_section_work1_tit": "Desarrollador Java y Python",
+        "ttl_section_work1_sub": "Banco Azteca, Tlalpan, CDMX",
+        "ttl_section_work1_des": "Desarrollo de microservicios y servicios web REST y SOAP.<br />Creación y mantenimiento de aplicaciones web<br />Gestión y versionamiento de código fuente<br />Implementación de pipelines de Integración Continua y Despliegue Continuo (CI/CD)<br />Administración de bases de datos<br />Desarrollo y ejecución de procesos batch.",
+        "ttl_section_work2_tit": "Generic Developer",
+        "ttl_section_work2_sub": "Xiimbal, Tulancingo, Hidalgo",
+        "ttl_section_work2_des": "Desarrollo y mantenimiento de distintos módulos de un Sistema Web, ERP.<br />Colaboración en el proyecto Gnosis desarrollado con Laravel.<br />Gestionamiento de BD con MySQL (Disparadores, Procedimientos, CRUD).",
+        "ttl_section_work3_tit": "Desarrollador web",
+        "ttl_section_work3_sub": "Xiimbal, Tulancingo, Hidalgo",
+        "ttl_section_work3_des": "Desarrollo y gestión de aplicaciones web, con conectividad a una BD SQL.<br />Mejoramiento en la arquitectura de una aplicación web: reemplazo de estructura basada en tablas, vistas adaptativas a dispositivos móviles.",
+
         "ttl_welcome": "¡Hola!",
         "ttl_about_name": "Soy Pablo Cruz",
         "ttl_place": "Desarrollador Full Stack",
         "ttl_about_me": "Sobre mí",
-        "ttl_main_info": "información principal",
+        "ttl_main_info": "información principal", 
         "ttl_get_touch": "ponerse en contacto",
+        "ttl_what_do": "lo que hago",
+        "ttl_lates_work": "ultimos trabajos",
+
         
         "ttl_skill_languaje": "inglés",
         "ttl_skills": "habilidades",
         "ttl_experience": "experiencia",
         "ttl_education": "educación",
+
+        "ttl_section_responsive_title": "Diseño responsivo",
+        "ttl_section_responsive": "Creo diseños web que se adaptan automáticamente a diferentes dispositivos y tamaños de pantalla.<br><br> Garantizo una experiencia de usuario óptima y una navegación intuitiva, permitiendo que su sitio web se vea y funcione de manera excelente en teléfonos móviles, tabletas y computadoras de escritorio.",
+        "ttl_section_design_title": "Diseño web",
+        "ttl_section_design": "Creo sistemas web personalizados que se adaptan a sus necesidades específicas.<br><br> Desde sistemas de gestión empresarial (ERP) hasta plataformas de comercio electrónico y más, desarrollo soluciones web potentes y escalables que agilizan sus procesos y mejoran la eficiencia de su negocio.",
+        "ttl_section_database_title": "Base de datos",
+        "ttl_section_database": "Diseño y desarrollo bases de datos eficientes y seguras para tu proyecto.<br><br> Desde el modelado hasta la implementación, aseguro estructuras robustas y optimizadas que garantizan la integridad y el rendimiento de los datos.",
+        "ttl_section_code_title": "Código limpio",
+        "ttl_section_code": "Siempre aplico estándares de codificación limpios y sigo las mejores prácticas para garantizar un código bien estructurado, legible y de fácil mantenimiento.<br><br> Utilizo comentarios claros, convenciones de nomenclatura adecuadas y técnicas de optimización para garantizar la calidad y escalabilidad de mis proyectos.",
+        "ttl_section_apis_title": "Servicios API",
+        "ttl_section_apis": "Proporciono servicios de desarrollo de API personalizados, creando interfaces robustas y seguras para facilitar la comunicación entre diferentes sistemas.<br><br> Diseño y desarrollo servicios RESTful API utilizando tecnologías como Spring Boot, FastAPI y Django para garantizar un rendimiento eficiente y una integración perfecta con sus aplicaciones y servicios.",
+        "ttl_section_version_title": "Control de versión de código",
+        "ttl_section_version": "Proporciono servicios de control de versiones de código utilizando herramientas como Git, lo que le permite tener un seguimiento preciso de los cambios en su código fuente.<br><br> Implemento prácticas eficientes de ramificación y fusión para garantizar un desarrollo colaborativo fluido y un historial completo de revisiones.",
         
         "ttl_btn_about_me": "Mas Acerca De Mí",
         "ttl_btn_show_less": "Ver menos...",
         "ttl_btn_show_more": "Ver mas...",
         "ttl_btn_download_cv": "Descargar CV",
-        "ttl_btn_here_me": "Contrátame",
+        "ttl_btn_here_me": "Contáctame",
 
         "ttl_home": "Inicio",
         "ttl_about": "Sobre mí",
         "ttl_services": "Servicios",
         "ttl_portf": "Portafolio",
-        "ttl_contact": "Contacto"
+        "ttl_contact": "Contacto",
+
+        "ttl_contact_phone": "Teléfono",
+        "ttl_contact_email": "Correo",
+        "ttl_contact_location": "Ubicación",
+
+        "ttl_form_name": "Nombre",
+        "ttl_form_email": "Correo",
+        "ttl_form_subject": "Asunto",
+        "ttl_form_message": "Mensaje",
+        "ttl_form_submit": "Enviar"
     }
 }

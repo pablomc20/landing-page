@@ -17,8 +17,18 @@ function cargarContenido(idioma) {
 
                     elementTranslate.forEach(element => {
                         
-                        if (element)
-                            element.innerHTML = valor;
+                        if (element) {
+                            if (element.tagName == "INPUT") 
+                                element.placeholder = valor
+                            else if(element.tagName == "BUTTON") {
+                                element.textContent = valor;
+                            }
+                            else if(element.tagName == "TEXTAREA") {
+                                element.placeholder = valor
+                            }
+                            else
+                                element.innerHTML = valor;
+                        }
                         // Puedes realizar alguna acción con cada clave y valor aquí
                     });
                 }
@@ -37,15 +47,8 @@ function showMessage(msg) {
         // Agrega contenido al mensaje
         mensaje.textContent = msg;
 
-        // Establece estilos para el mensaje flotante
-        mensaje.style.position = 'fixed';
-        mensaje.style.bottom = '0';
-        mensaje.style.left = '0';
-        mensaje.style.width = '100%';
-        mensaje.style.background = getComputedStyle(document.documentElement).getPropertyValue('--skin-color');
-        mensaje.style.color = '#ffffff';
-        mensaje.style.padding = '10px';
-        mensaje.style.textAlign = 'center';
+        // Establece estilos para el mensaje flotante        
+        mensaje.className = "dialog-message";
 
         // Agrega el mensaje al cuerpo del documento
         document.body.appendChild(mensaje);
@@ -74,10 +77,7 @@ async function sendMessageAsync(msg) {
     tareaEnProgreso = true;
     
     try {
-        // Realiza la tarea aquí
-        console.log("Realizando tarea...");
-        await showMessage(msg); // Supongamos que aquí tienes alguna operación asincrónica
-        console.log("Tarea completada.");
+        await showMessage(msg);
     } catch (error) {
         console.error("Error al realizar la tarea:", error);
     } finally {
@@ -109,7 +109,7 @@ window.onload = function() {
             body.dataset.languaje = "es";
             return ES;
         }else if (body.dataset.languaje === ES && !tareaEnProgreso) {
-            sendMessageAsync("Language change to English")
+            sendMessageAsync("English Language has been selected")
             body.dataset.languaje = "en";
             return EN;
 
